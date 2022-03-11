@@ -14,7 +14,7 @@ public class table {
             Statement stmt = con.createStatement(); 
             
             // query to create table
-            String query = "CREATE TABLE  student(" + "name varchar(50)," + "id int)";
+            String query = "CREATE TABLE  info(" + "name varchar(50)," + "id int)";
             stmt.execute(query);
             con.close();
             System.out.println("table created...");
