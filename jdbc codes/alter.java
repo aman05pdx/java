@@ -15,7 +15,7 @@ public class alter {
         stmt.executeUpdate(s);
 
         // System.out.println("column(s) added sucessfully!");
-        System.out.println("column(s) deleted sucessfully!");
+        System.out.println("column(s) deleted successfully!");
         con.close();
             
         } catch (Exception e) {
