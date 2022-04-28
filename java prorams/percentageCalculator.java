@@ -19,7 +19,7 @@ public class percentageCalculator {
 
         float percentage = (mark1 + mark2 + mark3 + mark4 + mark5 + mark6) / 6f;
         System.out.println("Percentage: " + percentage + "%");
-
+        sc.close();
 
     }
 }

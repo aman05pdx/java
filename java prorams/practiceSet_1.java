@@ -25,5 +25,6 @@ public class practiceSet_1{
         System.out.println("enter your number:");
 //        int check=sc.nextInt();
         System.out.println(sc.hasNextInt());//this will return true or false boolean values based on inputs.
+        sc.close();
     }
 }

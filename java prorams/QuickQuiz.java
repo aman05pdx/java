@@ -11,5 +11,7 @@ public class QuickQuiz {
         int num3=sc.nextInt();
         int sum=num3+num2+num1;
         System.out.println("sum of three numbers is: "+ sum);
+        sc.close();
+        
     }
 }
