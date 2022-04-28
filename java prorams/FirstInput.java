@@ -5,5 +5,6 @@ public class FirstInput {
         System.out.print("enter your age:");
         int age=sc.nextInt();
         System.out.println("your age is "+age);
+        sc.close();
     }
 }
