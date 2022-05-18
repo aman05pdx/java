@@ -13,7 +13,6 @@ public class bufferReader {
             System.out.println("the sqare of "+n*n);
 
         } catch (IOException e) {
-            //TODO: handle exception
             System.out.println("input error"+e);
         }
     }

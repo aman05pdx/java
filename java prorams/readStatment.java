@@ -12,7 +12,6 @@ public class readStatment {
             // floatNumber=Float.valueOf(in.readLine()).floatValue();
             
         } catch (Exception e) {
-            //TODO: handle exception
             System.out.println("input error"+e);
         }
         System.out.println("IntNumber:"+intNumber);
