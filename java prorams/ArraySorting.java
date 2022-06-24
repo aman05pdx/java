@@ -14,7 +14,7 @@ public class ArraySorting {
                 }
             }
             // prints the sorted element of the array
-            System.out.println(arr[i]);
+            System.out.print(arr[i]+" ");
         }
     }
 }
